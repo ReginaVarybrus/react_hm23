@@ -18,7 +18,7 @@ const HttpHeroComponent = () => {
                 </button>
                 <button
                     onClick={() => { setCurrentPage(p => p + 1); console.log(data.info.pages) }}
-                    disabled={currentPage === 3}>
+                    disabled={currentPage === 42}>
                     Next
                 </button>
             </div>
