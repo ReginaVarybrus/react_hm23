@@ -17,8 +17,8 @@ const HttpEpisodeComponent = () => {
                     Prev
                 </button>
                 <button
-                    onClick={() => { setCurrentPage(p => p + 1); console.log(data.info.pages) }}
-                    disabled={currentPage === 3}>
+                    onClick={() => setCurrentPage(p => p + 1)}
+                    disabled={currentPage === data.info?.pages}>
                     Next
                 </button>
             </div>
